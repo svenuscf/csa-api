@@ -10,7 +10,7 @@ Python scripts to automate internal network and tunnel group (NTG) management vi
 - 🧼 No secrets stored in code
 
 ## 🗂️ Project Structure
-.
+.  
 ├── `.env` # Stores CLIENT_ID and CLIENT_SECRET (excluded from git)  
 ├── `auth_helper.py` # Auth module using OAuth2 client credentials  
 ├── `get-ntg.py` # Lists internal networks and their NTG mappings  
