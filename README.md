@@ -32,6 +32,8 @@ pip install python-dotenv requests requests-oauthlib
 CLIENT_ID=your_client_id
 CLIENT_SECRET=your_client_secret
 ``` 
+Note that you will need to create an API key in CSA portal, and give it the correct privileges, e.g. Deployments Read/Write.  
+Then copy the API Key name as the CLIENT_ID and the key secret as CLIENT_SECRET.  
 
 3. Run the script:
 
