@@ -12,11 +12,6 @@ headers = {
     "Content-Type": "application/json"
 }
 
-headers = {
-    "Authorization": f"Bearer {TOKEN}",
-    "Accept": "application/json"
-}
-
 def get_internal_networks():
     url = f"{BASE_URL}/deployments/v2/internalnetworks"
     response = requests.get(url, headers=headers)
